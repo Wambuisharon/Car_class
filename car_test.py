@@ -1,7 +1,9 @@
-from unittest import *
-from car_solution import Car
+import unittest
+from car_solution import Car 
+from unittest import TestCase
 
-class CarClassTest(unitest.TestCase):
+
+class CarClassTest(TestCase):
     """docstring for CarClassTest"""
 
     def test_car_instance(self):
