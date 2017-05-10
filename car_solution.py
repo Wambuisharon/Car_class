@@ -14,7 +14,7 @@ class Car(object):
         if self.car_type not in self.cartypes:
             return
             
-        if type(self.num_of_doors) is not int or type(self.num_of_wheels) is not int or type(speed) is not int:
+        if type(self.num_of_doors) is not int or type(self.num_of_wheels) is not int or type(self.speed) is not int:
             return
 
         self.check_type()
